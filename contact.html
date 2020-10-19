@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <hr>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Programming Blog</a></li>
+            <li><a href="about.html">About The Author</a></li>
+            <li><a href="contact.html">Contact Page</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="contact_form">
+
+            <form>
+                <label for="name">Name:
+                    <input type="text" name="name" id="name" required>
+                </label>
+
+                <label for="email">Email Address:
+                    <input type="text" name="email" id="email" required>
+                </label>
+
+                <label for="contact_reason">Contact Reason:</label>
+                <select name="contact_reason" id="contact_selector">
+                    <option value="default">Select an Option</option>
+
+                    <option value="hello">Just Saying Hi</option>
+
+                    <option value="contractor">Looking for Contractor</option>
+
+                    <option value="interview">Interested in an Interview</option>
+                </select>
+                <br>
+                <label for="comment_area"> Comment:
+                    <textarea name="comment_area" id="comment_text" cols="30" rows="10"></textarea>
+                </label>
+                <button>Submit</button>
+            </form>
+
+
+        </section>
+
+    </main>
+</body>
+</html>
