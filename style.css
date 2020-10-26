@@ -1,0 +1,76 @@
+html{
+    background: #3e3e3e
+}
+
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 30px;
+    padding: 30px;
+    border-top: 10px solid #242424;
+    background: #ffff;
+    border-bottom: 10px solid #242424;
+}
+
+h1 {
+    margin: 0;
+}
+
+#author_pic_name {
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.navigation li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+.navigation li:last_child {
+    border-right: none;
+}
+
+.navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigation li a:hover {
+    background-color: #1111;
+}
+
+.blog_post {
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+.blog_post p {
+    text-align: left;
+}
+
+#posted {
+    text-align: center;
+}
