@@ -26,6 +26,9 @@ h1 {
 
 .navigation {
     list-style-type: none;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -74,3 +77,19 @@ h1 {
 #posted {
     text-align: center;
 }
+
+.posts {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+}
+
+.posts p {
+    padding: 20px;
+}
+
+.jorp-container {
+    float: right;
+    text-align: center;
+}
+
