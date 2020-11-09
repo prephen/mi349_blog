@@ -2,6 +2,16 @@ html{
     background: #3e3e3e
 }
 
+@media only screen and (max-width: 400px) {
+    .posts {
+        display: flex;
+        flex-direction: column;
+    }
+
+    html {
+        background: red;
+    }
+}
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -80,6 +90,7 @@ h1 {
 
 .posts {
     display: flex;
+    flex-direction: row;;
     margin: 20px;
     padding: 20px;
 }
